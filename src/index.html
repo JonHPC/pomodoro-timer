@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body class="flex flex-col justify-between h-screen w-screen bg-slate-300">
+    <div class="bg-slate-500 text-center py-4">
+        <h1 class="text-3xl font-bold">Pomodoro Timer</h1>
+        <p class="text-xl italic">25 minutes of productivity!</p>
+    </div>
+    <div class="bg-slate-300 flex-col py-8">
+        <div class="text-center container mx-auto">
+            <h1 id="timer" class="text-8xl font-bold py-4">25:00</h1>
+            <div class=" flex flex-row justify-evenly px-20 py-10">
+                <button id="start-btn" class="text-2xl border-2 border-slate-800 rounded-xl px-4 py-2 bg-green-400 hover:bg-green-200 active:bg-green-400">Start</button>
+                <button id="break-btn" class="text-2xl border-2 border-slate-800 rounded-xl px-4 py-2 bg-blue-400 hover:bg-blue-200 active:bg-blue-400">Set Break</button>
+                <button id="pause-btn" class="text-2xl border-2 border-slate-800 rounded-xl px-4 py-2 bg-yellow-400 hover:bg-yellow-200 active:bg-yellow-400">Pause</button>
+                <button id="stop-btn" class="text-2xl border-2 border-slate-800 rounded-xl px-4 py-2 bg-red-400 hover:bg-red-200 active:bg-red-400">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-slate-500 text-center py-4">
+        <h3 class="text-xl">Copyright © 2022 Jonathan Chen</h3>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
